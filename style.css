@@ -1,0 +1,60 @@
+* {
+    font-family: "Microsoft YaHei UI"
+}
+
+body {
+    background: url("bg.jpg")
+}
+
+form {
+    width: 570px;
+    margin: 0 auto;
+}
+
+#text {
+    width: 500px;
+    height: 50px;
+    font-size: 20pt;
+    outline: none;
+
+}
+
+#button {
+    width: 60px;
+    height: 50px;
+    background: bisque;
+    border-radius: 15px;
+    outline: none;
+    font-size: 11pt;
+}
+
+#sticker-board {
+    margin-top: 50px;
+}
+
+#sticker-board li {
+    position: relative;
+    float: left;
+    list-style: none;
+    font-size: 22pt;
+    width: 350px;
+    height: 400px;
+    box-shadow: 10px 10px 10px grey;
+    border: solid grey 1px;
+    padding: 20px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.delete-button {
+    display: block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    right: 0;
+    background: url('delete.png') no-repeat;
+    background-size: 80px 80px;
+    cursor: pointer;
+}
